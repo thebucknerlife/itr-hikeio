@@ -1,0 +1,15 @@
+<h1>Welcome to Hikeio</h1>
+
+<ul>
+  <% @hikes.each do |hike| %>
+  <li><span class="hike-name"><%= hike.name %></span> <%= hike.distance_mi %></li>
+  <% end %>
+</ul>
+
+<h2>Add A Hike</h2>
+
+<%= form_for @hike do |f| %>
+  <%= f.text_field :name %>
+  <%= f.text_field :distance_mi %>
+  <%= f.submit "Create Hike" %>
+<% end %>

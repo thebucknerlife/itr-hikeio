@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  distance_mi: 1.5
+  elevation_gain: 1
+  max_elevation: 1
+
+two:
+  name: MyString
+  distance_mi: 1.5
+  elevation_gain: 1
+  max_elevation: 1
